@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 36 36"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="genderqueer_nonbinary_flagg.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <svg:metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:defs
+     id="defs14">
+
+
+
+
+
+</svg:defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="6.8472222"
+     inkscape:cx="-9.2782939"
+     inkscape:cy="27.614265"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10"
+     inkscape:document-rotation="0" />
+  <script>
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== &quot;undefined&quot;) return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script>
+  <svg:path
+     id="rect841"
+     style="fill:#76b82a;stroke-width:22.5963;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+     d="m 4.0000015,5.0000035 c -1.016,0 -1.940485,0.38186 -2.646485,1.00586 -0.829,0.733 -1.353515,1.8011405 -1.353515,2.9941405 v 17.5 c 0,1.48 0.536812,2.682656 1.382812,3.472656 l -0.0293,0.02148 C 2.0595135,30.618141 2.9839985,31 3.9999985,31 H 31.999999 c 2.209,0 4,-1.790999 4,-4 V 18 9 c 0,-2.2090005 -1.791,-4.0000005 -4,-4.0000005 z" />
+  <svg:g
+     id="Ebene_2"
+     transform="matrix(0.08033278,0,0,0.08033278,1.1618879,6.115287)">
+<svg:path
+   d="m 260.855,47.407 -15.268,15.268 25.363,-0.007 -29.13,29.13 c -8.913,-6.173 -19.715,-9.803 -31.354,-9.803 -11.892,0 -22.908,3.792 -31.93,10.212 l -4.973,-4.973 12.835,-12.835 -10.606,-10.606 -12.835,12.835 -14.699,-14.699 25.364,0.007 -15.268,-15.268 h -35.963 v 35.963 l 15.268,15.268 -0.007,-25.364 14.699,14.699 -12.129,12.129 10.606,10.606 12.129,-12.129 4.633,4.633 c -7.705,9.494 -12.334,21.58 -12.334,34.731 0,27.898 20.804,51.014 47.71,54.686 v 19.231 h -17.669 v 15 h 17.669 v 23.098 h 15 v -23.098 h 17.635 v -15 H 217.966 V 191.89 c 26.906,-3.672 47.71,-26.788 47.71,-54.686 0,-13.402 -4.804,-25.701 -12.775,-35.274 L 281.557,73.274 281.55,98.637 296.818,83.369 V 47.407 Z m -50.388,130.007 c -22.172,0 -40.21,-18.038 -40.21,-40.209 0,-22.172 18.038,-40.21 40.21,-40.21 22.171,0 40.209,18.038 40.209,40.21 0.001,22.171 -18.037,40.209 -40.209,40.209 z"
+   id="path833" />
+
+</svg:g>
+</svg:svg>

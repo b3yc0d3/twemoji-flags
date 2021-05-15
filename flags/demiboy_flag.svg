@@ -1,116 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg:svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+<svg
+   xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 36 36"
-   version="1.1"
-   id="svg10"
-   sodipodi:docname="demiboy_flagg.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
-  <svg:metadata
-     id="metadata16">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </svg:metadata>
-  <svg:defs
-     id="defs14">
-    <svg:clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath978">
-      <svg:path
-         id="path980"
-         style="fill:#808080;stroke-width:22.5963;stroke-linecap:round;stroke-linejoin:round"
-         d="m 4.0000015,5.0000035 c -1.016,0 -1.940485,0.38186 -2.646485,1.00586 -0.829,0.733 -1.353515,1.8011405 -1.353515,2.9941405 v 17.5 c 0,1.48 0.536812,2.682656 1.382812,3.472656 l -0.0293,0.02148 C 2.0595135,30.618141 2.9839985,31 3.9999985,31 H 31.999999 c 2.209,0 4,-1.790999 4,-4 V 18 9 c 0,-2.2090005 -1.791,-4.0000005 -4,-4.0000005 z" />
-    </svg:clipPath>
-  </svg:defs>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     id="namedview12"
-     showgrid="false"
-     inkscape:zoom="9.6834345"
-     inkscape:cx="21.242683"
-     inkscape:cy="20.287158"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg10"
-     inkscape:document-rotation="0" />
-  <svg:g
-     id="g976"
-     clip-path="url(#clipPath978)">
-    <svg:rect
-       style="fill:#7e7f7f;fill-opacity:1;stroke-width:32.7539;stroke-linecap:round;stroke-linejoin:round"
-       id="rect830"
-       width="43.11237"
-       height="25.900003"
-       x="-3.5561845"
-       y="4.9999995"
-       ry="1.264982e-06" />
-    <svg:rect
-       style="fill:#c5c3c4;fill-opacity:1;stroke-width:27.682;stroke-linecap:round;stroke-linejoin:round"
-       id="rect830-6"
-       width="43.11237"
-       height="18.500002"
-       x="-3.5561845"
-       y="8.6999998"
-       ry="9.0355849e-07" />
-    <svg:rect
-       style="fill:#9bd5e6;fill-opacity:1;stroke-width:21.4424;stroke-linecap:round;stroke-linejoin:round"
-       id="rect830-6-7"
-       width="43.11237"
-       height="11.1"
-       x="-3.5561824"
-       y="12.4"
-       ry="5.4213501e-07" />
-    <svg:rect
-       style="fill:#ffffff;stroke-width:12.3798;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
-       id="rect830-6-7-5"
-       width="43.11237"
-       height="3.7"
-       x="-3.5561821"
-       y="16.1"
-       ry="1.8071168e-07" />
-  </svg:g>
-  <script>
-        (function() {
-            // If GPC on, set DOM property to true if not already true
-            if (true) {
-                if (navigator.globalPrivacyControl) return
-                Object.defineProperty(navigator, 'globalPrivacyControl', {
-                    value: true,
-                    enumerable: true
-                })
-            } else {
-                // If GPC off, set DOM property prototype to false so it may be overwritten
-                // with a true value by user agent or other extensions
-                if (typeof navigator.globalPrivacyControl !== &quot;undefined&quot;) return
-                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
-                    value: false,
-                    enumerable: true
-                })
-            }
-            // Remove script tag after execution
-            document.currentScript.parentElement.removeChild(document.currentScript)
-        })()
-        </script>
-</svg:svg>
+   version="1.1">
+  <path
+     id="rect830"
+     style="fill:#7e7f7f;fill-opacity:1;stroke-width:32.7539;stroke-linecap:round;stroke-linejoin:round"
+     d="M 3.4648438 5 C 2.6624218 5.1091331 1.932248 5.443564 1.3535156 5.9550781 C 0.52451566 6.6880781 -4.4408921e-16 7.7562188 0 8.9492188 L 0 26.449219 C 0 27.929219 0.53681154 29.131875 1.3828125 29.921875 L 1.3535156 29.943359 C 1.9336424 30.456106 2.665979 30.792152 3.4707031 30.900391 L 32.492188 30.900391 C 34.466429 30.655404 36 28.989738 36 26.949219 L 36 17.949219 L 36 8.9492188 C 36 6.9113738 34.470486 5.2484287 32.5 5 L 3.4648438 5 z " />
+  <path
+     id="rect830-6"
+     style="fill:#c5c3c4;fill-opacity:1;stroke-width:27.682;stroke-linecap:round;stroke-linejoin:round"
+     d="M 0.02734375 8.6992188 C 0.021978203 8.7838159 -3.2002991e-17 8.863246 0 8.9492188 L 0 26.449219 C 0 26.70879 0.022890579 26.95744 0.0546875 27.199219 L 35.974609 27.199219 C 35.979905 27.114976 36 27.034796 36 26.949219 L 36 17.949219 L 36 8.9492188 C 36 8.8634356 35.979931 8.7836608 35.974609 8.6992188 L 0.02734375 8.6992188 z " />
+  <path
+     id="rect830-6-7"
+     style="fill:#9bd5e6;fill-opacity:1;stroke-width:21.4424;stroke-linecap:round;stroke-linejoin:round"
+     d="M 0 12.400391 L 0 23.5 L 36 23.5 L 36 17.949219 L 36 12.400391 L 0 12.400391 z " />
+  <path
+     id="rect830-6-7-5"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:12.3798;stroke-linecap:round;stroke-linejoin:round"
+     d="M 0 16.099609 L 0 19.800781 L 36 19.800781 L 36 17.949219 L 36 16.099609 L 0 16.099609 z " />
+</svg>

@@ -1,0 +1,28 @@
+@import "./flags"; // All flags in a struct
+
+.twf {
+    display: inline-block;
+    width: 24px;
+    /* Adjust the size as needed */
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@each $name, $glyph in $flag-data {
+    .#{$name} {
+        position: relative;
+        @extend .twf;
+
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+
+            content: "";
+            background-image: #{$glyph};
+        }
+    }
+}

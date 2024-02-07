@@ -1,0 +1,16 @@
+{
+  "name": "twemoji-flags",
+  "version": "1.0.0",
+  "description": "Build script for twemoji-flags",
+  "main": "build.js",
+  "author": "b3yc0d3 <b3yc0d3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "help": "sass --help",
+    "build-dist": "node build.js && sass scss/twf.scss:dist/twf.min.css --style=compressed && sass scss/twf.scss:dist/twf.css"
+  },
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "sass": "^1.70.0"
+  }
+}

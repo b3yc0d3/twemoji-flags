@@ -34,6 +34,7 @@ Pride flags in the style of Twemojis.
 | <img width="64" src="./assets/flags/polyamorie1_flag.svg" />            | Polyamorie 1 Flag     | `polyamorie_flag_01.svg` |
 | <img width="64" src="./assets/flags/polyamorie_flag.svg" />               | Polyamorie Flag       | `polyamorie_flag.svg` |
 | <img width="64" src="./assets/flags/polysexual_flag.svg" />              | Polysexual            | `polysexual_flag.svg` |
+| <img width="64" src="./assets/flags/straight_ally_flag.svg" />              | Straight Ally Flag      | `straight_ally_flag.svg` |
 | <img width="64" src="./assets/flags/trans_flag.svg" />              | Transgender Flag      | `trans_flag.svg` |
 ||||
 | <img width="64" src="./assets/flags/TEMPLATE_FLAG.svg" style="border: 1px solid orange;" /> | Just a template for those who wanna add more flags | `TEMPLATE_FLAG.svg` |
@@ -73,19 +74,24 @@ And now you can simply use all pride flags of twemoji-flags as simple as the fol
 <div class="polyamorie-flag"></div>
 <div class="polyamorie1-flag"></div>
 <div class="polysexual-flag"></div>
+<div class="straight-ally-flag"></div>
 <div class="trans-flag"></div>
 ```
 
-You can change the size of the emoji flags by setting the css variable `---pride-flag-size` to any size you like, default is 24px.
+You can change the size of the emoji flags by setting the css variable `--pride-flag-size` to any size you like, default is 24px.
 
 ## Build Process
-It's as simple as just running the following command, after cloning this
+It's as simple as just running the following commands, after cloning this
 repository.
 ```
+npm install
+
 npm run build-dist
 ```
 or
 ```
+npm install
+
 npm run build-dev
 ```
 

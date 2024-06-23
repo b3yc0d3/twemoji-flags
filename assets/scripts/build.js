@@ -56,11 +56,12 @@ function generate_flag_dict(out_path) {
     fs.writeFileSync(path.resolve(out_path), scss_result);
 }
 
-function generate_css(inp_path, out_path, sass_style) {
+function generate_css(inp_path, out_path, { sass_style, header_comment }) {
     console.info(`[SASS] Compiling ${inp_path}...`);
 
     const result = sass.compile(inp_path, { style: sass_style, sourceMap: true });
-    fs.writeFileSync(out_path, result.css);
+    const file_contents = `${header_comment}\n${result.css}`;
+    fs.writeFileSync(out_path, file_contents);
 
     // source map
     console.info(`[SASS] Generating source map ${inp_path}.map...`);
@@ -72,18 +73,36 @@ function generate_css(inp_path, out_path, sass_style) {
     fs.writeFileSync(out_path + ".map", JSON.stringify(src_map || {}));
 }
 
+function read_package_info() {
+    return require("../../package.json");
+}
+
+const pkg_info = read_package_info();
+const date_generated = new Date().toISOString().split('T')[0];
 const args = getArgs({ dist: false, dev: false });
 const is_dist = args["dist"] || true;
 const is_dev = args["dev"] || false;
 const dist_dir = path.join("dist");
+const header_comment = `/* ==========================================================================
+Project:        twemoji-flags
+Description:    Pride Flags in Twemoji Flag style.
+Author:         ${pkg_info.author}
+Generated:      ${date_generated}
+Version:        ${pkg_info.version}
+==========================================================================
+
+Notes:
+- This file was generated automatically.
+
+========================================================================== */`;
 
 generate_flag_dict(path.join("assets", "scss", "_gen_flags.scss"));
 
 fs.mkdirSync(dist_dir, { recursive: true });
 
 if (is_dist) {
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.min.css`), "compressed");
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.css`), "expanded");
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.min.css`), { sass_style: "compressed", header_comment: header_comment });
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.css`), { sass_style: "expanded", header_comment: header_comment });
 } else {
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.dev.css`), "expanded");
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.dev.css`), { sass_style: "expanded", header_comment: header_comment });
 }

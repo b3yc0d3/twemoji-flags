@@ -1,0 +1,22 @@
+<svg
+   viewBox="0 0 36 36"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     id="rect8"
+     style="fill:#d260a5;fill-opacity:1;stroke:none;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="M 4,5 C 2.984001,5 2.0595149,5.38186 1.3535156,6.0058594 0.52451645,6.7388586 0,7.8070012 0,9 v 17.5 c 0,1.479999 0.53681335,2.682657 1.3828125,3.472656 l -0.029297,0.02148 C 2.0595149,30.618141 2.984001,31 4,31 h 28 c 2.208998,0 4,-1.791001 4,-4 V 18 9 C 36,6.7910017 34.208998,5 32,5 Z" />
+  <path
+     id="rect9"
+     style="fill:#e4afcd;fill-opacity:1;stroke:none;stroke-width:0.845154;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="M 0.015625,8.7148438 C 0.00889903,8.8094503 0,8.903654 0,9 v 17.5 c 0,0.272641 0.02553555,0.532185 0.06054687,0.785156 H 35.984375 C 35.99109,27.190408 36,27.096456 36,27 V 18 9 C 36,8.903544 35.9911,8.8095919 35.98437,8.7148438 Z" />
+  <path
+     id="rect10"
+     style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.654653;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="M 0,12.427734 V 23.572266 H 36 V 18 12.427734 Z" />
+  <path
+     id="rect4"
+     style="fill:#57cef8;fill-opacity:1;stroke:none;stroke-width:0.780061;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="m 0,16.142578 v 3.714844 H 36 V 18 16.142578 Z" />
+</svg>

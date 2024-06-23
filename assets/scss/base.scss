@@ -1,0 +1,33 @@
+@import "./gen_flags"; // All flags in a dict
+
+:root {
+    /* Adjust the size as needed */
+    --pride-flag-size: 24px;
+}
+
+/* General "Twemoji-Flags class */
+.twf {
+    display: inline-block;
+    width: var(--pride-flag-size);
+    height: var(--pride-flag-size);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@each $name, $glyph in $flag-data {
+    .#{$name} {
+        position: relative;
+        @extend .twf;
+
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+
+            content: "";
+            background-image: #{$glyph};
+        }
+    }
+}

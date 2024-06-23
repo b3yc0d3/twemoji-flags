@@ -34,6 +34,7 @@ Pride flags in the style of Twemojis.
 | <img width="64" src="./assets/flags/polyamory1_flag.svg" />            | polyamory 1 Flag     | `polyamory1_flag.svg` |
 | <img width="64" src="./assets/flags/polyamory_flag.svg" />               | polyamory Flag       | `polyamory_flag.svg` |
 | <img width="64" src="./assets/flags/polysexual_flag.svg" />              | Polysexual            | `polysexual_flag.svg` |
+| <img width="64" src="./assets/flags/progress_pride_flag.svg" />              | Progress Pride Flag            | `progress_pride_flag.svg` |
 | <img width="64" src="./assets/flags/straight_ally_flag.svg" />              | Straight Ally Flag      | `straight_ally_flag.svg` |
 | <img width="64" src="./assets/flags/trans_flag.svg" />              | Transgender Flag      | `trans_flag.svg` |
 ||||

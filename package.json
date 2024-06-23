@@ -6,8 +6,8 @@
   "author": "b3yc0d3 <b3yc0d3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "help": "sass --help",
-    "build-dist": "node build.js && sass scss/twf.scss:dist/twf.min.css --style=compressed && sass scss/twf.scss:dist/twf.css"
+    "build-dist": "node assets/scripts/build.js --dist",
+    "build-dev": "node assets/scripts/build.js --dev"
   },
   "devDependencies": {
     "glob": "^10.3.10",

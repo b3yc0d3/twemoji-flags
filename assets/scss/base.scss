@@ -1,11 +1,15 @@
-@import "./flags"; // All flags in a dict
+@import "./gen_flags"; // All flags in a dict
+
+:root {
+    /* Adjust the size as needed */
+    ---pride-flag-size: 24px;
+}
 
 /* General "Twemoji-Flags class */
 .twf {
     display: inline-block;
-    width: 24px;
-    /* Adjust the size as needed */
-    height: 24px;
+    width: var(---pride-flag-size);
+    height: var(---pride-flag-size);
     background-size: cover;
     background-repeat: no-repeat;
 }

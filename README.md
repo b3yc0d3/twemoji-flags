@@ -31,8 +31,8 @@ Pride flags in the style of Twemojis.
 | <img width="64" src="./assets/flags/neutrois_flag.svg" />                 | Neutrois Flag         | `neutrois_flag.svg` |
 | <img width="64" src="./assets/flags/nb_flag.svg" />                | NB Flag               | `nb_flag.svg` |
 | <img width="64" src="./assets/flags/pan_flag.svg" />               | Pansexual Flag        | `pan_flag.svg` |
-| <img width="64" src="./assets/flags/polyamorie1_flag.svg" />            | Polyamorie 1 Flag     | `polyamorie_flag_01.svg` |
-| <img width="64" src="./assets/flags/polyamorie_flag.svg" />               | Polyamorie Flag       | `polyamorie_flag.svg` |
+| <img width="64" src="./assets/flags/polyamory1_flag.svg" />            | polyamory 1 Flag     | `polyamory1_flag.svg` |
+| <img width="64" src="./assets/flags/polyamory_flag.svg" />               | polyamory Flag       | `polyamory_flag.svg` |
 | <img width="64" src="./assets/flags/polysexual_flag.svg" />              | Polysexual            | `polysexual_flag.svg` |
 | <img width="64" src="./assets/flags/straight_ally_flag.svg" />              | Straight Ally Flag      | `straight_ally_flag.svg` |
 | <img width="64" src="./assets/flags/trans_flag.svg" />              | Transgender Flag      | `trans_flag.svg` |
@@ -71,9 +71,10 @@ And now you can simply use all pride flags of twemoji-flags as simple as the fol
 <div class="neutrois-flag"></div>
 <div class="nb-flag"></div>
 <div class="pan-flag"></div>
-<div class="polyamorie-flag"></div>
-<div class="polyamorie1-flag"></div>
+<div class="polyamory-flag"></div>
+<div class="polyamory1-flag"></div>
 <div class="polysexual-flag"></div>
+<div class="progress-pride-flag"></div>
 <div class="straight-ally-flag"></div>
 <div class="trans-flag"></div>
 ```

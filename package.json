@@ -1,6 +1,6 @@
 {
   "name": "twemoji-flags",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Build script for twemoji-flags",
   "main": "build.js",
   "author": "b3yc0d3 <b3yc0d3@gmail.com>",

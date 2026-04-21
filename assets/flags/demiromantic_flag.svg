@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 36 36"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="demiromantic_flag.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="23.138889"
+     inkscape:cx="13.656663"
+     inkscape:cy="15.234094"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     id="rect832"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:13.4668;stroke-linecap:round;stroke-linejoin:round"
+     d="M 3.9785156 5.0019531 C 2.9711857 5.0074308 2.0544083 5.3863745 1.3535156 6.0058594 C 0.52451563 6.7388604 2.9605947e-16 7.807 0 9 L 0 15.576172 L 36 15.576172 L 36 9 C 36 6.7976837 34.219312 5.0127473 32.019531 5.0019531 L 3.9785156 5.0019531 z " />
+  <path
+     id="rect838"
+     style="fill:#339931;fill-opacity:1;stroke-width:9.11767;stroke-linecap:round;stroke-linejoin:round"
+     d="M 0 15.576172 L 0 20.423828 L 36 20.423828 L 36 18 L 36 15.576172 L 0 15.576172 z " />
+  <path
+     id="rect840"
+     style="fill:#d1d1d1;fill-opacity:1;stroke-width:13.4668;stroke-linecap:round;stroke-linejoin:round"
+     d="M 0 20.423828 L 0 26.5 C 0 27.98 0.5368125 29.182656 1.3828125 29.972656 L 1.3535156 29.994141 C 2.0544083 30.613627 2.9711857 30.992569 3.9785156 30.998047 L 32.019531 30.998047 C 34.219312 30.987253 36 29.202316 36 27 L 36 20.423828 L 0 20.423828 z " />
+  <path
+     fill="#3d8e33"
+     d="M 1.351,6.0035001 H 1.35 c -0.82799995,0.733 -1.35,1.804 -1.35,2.996 V 26.9995 c 0,1.193 0.52200005,2.264 1.351,2.997 L 17.5,17.9995 Z"
+     id="path10"
+     style="fill:#000000" />
+</svg>

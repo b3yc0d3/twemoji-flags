@@ -20,7 +20,8 @@ Pride flags in the style of Twemojis.
 | <img width="64" src="./assets/flags/ceres_flag.svg" />                    | Ceres Flag            | `ceres_flag.svg` |
 | <img width="64" src="./assets/flags/demiboy_flag.svg" />                  | Demiboy Flag          | `demiboy_flag.svg` |
 | <img width="64" src="./assets/flags/demigirl_flag.svg" />                 | Demigirl Flag         | `demigirl_flag.svg` |
-| <img width="64" src="./assets/flags/demi_flag.svg" />               | Demisexual Flag       | `demi_flag.svg` |
+| <img width="64" src="./assets/flags/demiromantic_flag.svg" />               | Demiromantic Flag       | `demiromantic_flag.svg` |
+| <img width="64" src="./assets/flags/demisexual_flag.svg" />               | Demisexual Flag       | `demisexual_flag.svg` |
 | <img width="64" src="./assets/flags/femboy_flag.svg"> | Femboy Flag | `femboy_flag.svg` |
 | <img width="64" src="./assets/flags/genderfluid_flag.svg" />              | Genderfluid Flag      | `genderfluid_flag.svg` |
 | <img width="64" src="./assets/flags/genderqueer_nb1_flag.svg" /> | Genderqueer NB 1 Flag | `genderqueer_nb1_flag.svg` |
@@ -59,9 +60,10 @@ And now you can simply use all pride flags of twemoji-flags as simple as the fol
 <div class="asexual-flag"></div>
 <div class="bi-flag"></div>
 <div class="ceres-flag"></div>
-<div class="demi-flag"></div>
 <div class="demiboy-flag"></div>
 <div class="demigirl-flag"></div>
+<div class="demiromantic-flag"></div>
+<div class="demisexual-flag"></div>
 <div class="femboy-flag"></div>
 <div class="genderfluid-flag"></div>
 <div class="genderqueer-nb-flag"></div>
@@ -88,13 +90,13 @@ repository.
 ```
 npm install
 
-npm run build-dist
+npm run release
 ```
 or
 ```
 npm install
 
-npm run build-dev
+npm run dev
 ```
 
 ## Contribution

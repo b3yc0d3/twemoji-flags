@@ -1,6 +1,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { globSync, Path } = require("glob");
+const { exec } = require("child_process");
 const sass = require("sass");
 
 function getArgs(options = {}) {
@@ -31,7 +32,7 @@ function generate_flag_dict(out_path) {
     const flags_list = globSync(path.join("assets", "flags", "*.svg"));
 
     const PREFIX_B64_SVG = "data:image/svg+xml;base64,";
-    var scss_result = "$flag-data: (";
+    var scss_result = "/*\n * This file was generated automatically by the build.js script.\n *\n * Do not temper with this file!\n */\n\n$flag-data: (";
 
     flags_list.forEach((flag) => {
         var abs_path = path.resolve(flag);
@@ -73,6 +74,35 @@ function generate_css(inp_path, out_path, { sass_style, header_comment }) {
     fs.writeFileSync(out_path + ".map", JSON.stringify(src_map || {}));
 }
 
+/**
+ * Bundle all css files, readmes and license files in to a ZIP and TAR.GZ file 
+ */
+function bundle(pkg_info) {
+    exec(`tar -zcf dist/twemoji-flags-v${pkg_info.version}.tar.gz ./build/* ./README.md ./LICENSE ./LICENSE-GRAPHICS`, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.error(stderr);
+            return;
+        }
+        console.log(stdout);
+    });
+
+    exec(`zip -r dist/twemoji-flags-v${pkg_info.version}.zip ./build/* ./README.md ./LICENSE ./LICENSE-GRAPHICS`, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.error(stderr);
+            return;
+        }
+        console.log(stdout);
+    });
+}
+
 function read_package_info() {
     return require("../../package.json");
 }
@@ -82,6 +112,7 @@ const date_generated = new Date().toISOString().split('T')[0];
 const args = getArgs({ dist: false, dev: false });
 const is_dist = args["dist"] || true;
 const is_dev = args["dev"] || false;
+const build_dir = path.join("build");
 const dist_dir = path.join("dist");
 const header_comment = `/* ==========================================================================
 Project:        twemoji-flags
@@ -99,10 +130,12 @@ Notes:
 generate_flag_dict(path.join("assets", "scss", "_gen_flags.scss"));
 
 fs.mkdirSync(dist_dir, { recursive: true });
+fs.mkdirSync(build_dir, { recursive: true });
 
 if (is_dist) {
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.min.css`), { sass_style: "compressed", header_comment: header_comment });
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.css`), { sass_style: "expanded", header_comment: header_comment });
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(build_dir, `twf.min.css`), { sass_style: "compressed", header_comment: header_comment });
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(build_dir, `twf.css`), { sass_style: "expanded", header_comment: header_comment });
+    bundle(pkg_info);
 } else {
-    generate_css(path.join("assets", "scss", "base.scss"), path.join(dist_dir, `twf.dev.css`), { sass_style: "expanded", header_comment: header_comment });
+    generate_css(path.join("assets", "scss", "base.scss"), path.join(build_dir, `twf.dev.css`), { sass_style: "expanded", header_comment: header_comment });
 }

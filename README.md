@@ -90,13 +90,13 @@ repository.
 ```
 npm install
 
-npm run build-dist
+npm run release
 ```
 or
 ```
 npm install
 
-npm run build-dev
+npm run dev
 ```
 
 ## Contribution

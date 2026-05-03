@@ -4,7 +4,7 @@
 
 <img src=".github/header_img.svg">
 
-![url](https://img.shields.io/badge/current%20flag%20count-21-blue)
+![url](https://img.shields.io/badge/current%20flag%20count-40-blue)
 ![url1](https://img.shields.io/github/last-commit/NikiNikOfficially/twemoji-flags)
 
 Pride flags in the style of Twemojis.

@@ -14,6 +14,7 @@ Pride flags in the style of Twemojis.
 | Flag | Name | Filename |
 |------|------|----------|
 | <img width="64" src="./assets/flags/abrosexual_flag.svg" />                  | Abrosexual Flag          | `abrosexual_flag.svg` |
+| <img width="64" src="./assets/flags/achillean_flag.svg" />                  | Achillean Flag          | `achillean_flag.svg` |
 | <img width="64" src="./assets/flags/agender_flag.svg" />                  | Agender Flag          | `agender_flag.svg` |
 | <img width="64" src="./assets/flags/androsexual_flag.svg" />                | Androsexual Flag        | `androsexual_flag.svg` |
 | <img width="64" src="./assets/flags/aroace_flag.svg" />                | Aroace Flag        | `aroace_flag.svg` |
@@ -48,6 +49,7 @@ Pride flags in the style of Twemojis.
 | <img width="64" src="./assets/flags/progress_pride_flag.svg" />              | Progress Pride Flag            | `progress_pride_flag.svg` |
 | <img width="64" src="./assets/flags/queer_flag.svg" />              | Queer Flag            | `queer_flag.svg` |
 | <img width="64" src="./assets/flags/straight_ally_flag.svg" />              | Straight Ally Flag      | `straight_ally_flag.svg` |
+| <img width="64" src="./assets/flags/sapphic.svg" />              | Sapphic Flag      | `sapphic.svg` |
 | <img width="64" src="./assets/flags/trans_flag.svg" />              | Transgender Flag      | `trans_flag.svg` |
 | <img width="64" src="./assets/flags/transfem_flag.svg" />              | Transfeminine Flag      | `transfem_flag.svg` |
 | <img width="64" src="./assets/flags/transmasc_flag.svg" />              | Transmasculine Flag      | `transmasc_flag.svg` |

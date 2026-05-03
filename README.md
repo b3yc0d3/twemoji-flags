@@ -13,31 +13,44 @@ Pride flags in the style of Twemojis.
 ## Emojicons
 | Flag | Name | Filename |
 |------|------|----------|
+| <img width="64" src="./assets/flags/abrosexual_flag.svg" />                  | Abrosexual Flag          | `abrosexual_flag.svg` |
 | <img width="64" src="./assets/flags/agender_flag.svg" />                  | Agender Flag          | `agender_flag.svg` |
+| <img width="64" src="./assets/flags/androsexual_flag.svg" />                | Androsexual Flag        | `androsexual_flag.svg` |
+| <img width="64" src="./assets/flags/aroace_flag.svg" />                | Aroace Flag        | `aroace_flag.svg` |
 | <img width="64" src="./assets/flags/aromantic_flag.svg" />                | Aromantic Flag        | `aromantic_flag.svg` |
 | <img width="64" src="./assets/flags/asexual_flag.svg" />                  | Asexual Flag          | `asexual_flag.svg` |
+| <img width="64" src="./assets/flags/aspec_flag.svg" />                  | Aspec Flag          | `aspec_flag.svg` |
 | <img width="64" src="./assets/flags/bi_flag.svg" />                 | Bisexual Flag         | `bi_flag.svg` |
 | <img width="64" src="./assets/flags/ceres_flag.svg" />                    | Ceres Flag            | `ceres_flag.svg` |
 | <img width="64" src="./assets/flags/demiboy_flag.svg" />                  | Demiboy Flag          | `demiboy_flag.svg` |
+| <img width="64" src="./assets/flags/demiflux_flag.svg" />                  | Demiflux Flag          | `demiflux_flag.svg` |
+| <img width="64" src="./assets/flags/demigender_flag.svg" />                  | Demigender Flag          | `demigender_flag.svg` |
 | <img width="64" src="./assets/flags/demigirl_flag.svg" />                 | Demigirl Flag         | `demigirl_flag.svg` |
 | <img width="64" src="./assets/flags/demiromantic_flag.svg" />               | Demiromantic Flag       | `demiromantic_flag.svg` |
 | <img width="64" src="./assets/flags/demisexual_flag.svg" />               | Demisexual Flag       | `demisexual_flag.svg` |
 | <img width="64" src="./assets/flags/femboy_flag.svg"> | Femboy Flag | `femboy_flag.svg` |
+| <img width="64" src="./assets/flags/gay_men_flag.svg" />              | Gay Men Flag      | `gay_men_flag.svg` |
 | <img width="64" src="./assets/flags/genderfluid_flag.svg" />              | Genderfluid Flag      | `genderfluid_flag.svg` |
+| <img width="64" src="./assets/flags/genderflux_flag.svg" />              | Genderflux Flag      | `genderflux_flag.svg` |
 | <img width="64" src="./assets/flags/genderqueer_nb1_flag.svg" /> | Genderqueer NB 1 Flag | `genderqueer_nb1_flag.svg` |
 | <img width="64" src="./assets/flags/genderqueer_nb_flag.svg" />    | Genderqueer NB Flag   | `genderqueer_nb_flag.svg` |
+| <img width="64" src="./assets/flags/gynesexual_flag.svg" />    | Gynesexual Flag   | `gynesexual_flag.svg` |
 | <img width="64" src="./assets/flags/hetero_flag.svg" />  | Heterosexual Flag     | `hetero_flag.svg` |
 | <img width="64" src="./assets/flags/intersexualtiy_flag.svg" />           | Intersexual Flag      | `intersexualtiy_flag.svg` |
 | <img width="64" src="./assets/flags/lesbian_flag.svg" />                  | Lesbian Flag          | `lesbian_flag.svg` |
 | <img width="64" src="./assets/flags/neutrois_flag.svg" />                 | Neutrois Flag         | `neutrois_flag.svg` |
 | <img width="64" src="./assets/flags/nb_flag.svg" />                | NB Flag               | `nb_flag.svg` |
+| <img width="64" src="./assets/flags/omni_flag.svg" />               | Omnisexual Flag        | `omni_flag.svg` |
 | <img width="64" src="./assets/flags/pan_flag.svg" />               | Pansexual Flag        | `pan_flag.svg` |
 | <img width="64" src="./assets/flags/polyamory1_flag.svg" />            | polyamory 1 Flag     | `polyamory1_flag.svg` |
 | <img width="64" src="./assets/flags/polyamory_flag.svg" />               | polyamory Flag       | `polyamory_flag.svg` |
 | <img width="64" src="./assets/flags/polysexual_flag.svg" />              | Polysexual            | `polysexual_flag.svg` |
 | <img width="64" src="./assets/flags/progress_pride_flag.svg" />              | Progress Pride Flag            | `progress_pride_flag.svg` |
+| <img width="64" src="./assets/flags/queer_flag.svg" />              | Queer Flag            | `queer_flag.svg` |
 | <img width="64" src="./assets/flags/straight_ally_flag.svg" />              | Straight Ally Flag      | `straight_ally_flag.svg` |
 | <img width="64" src="./assets/flags/trans_flag.svg" />              | Transgender Flag      | `trans_flag.svg` |
+| <img width="64" src="./assets/flags/transfem_flag.svg" />              | Transfeminine Flag      | `transfem_flag.svg` |
+| <img width="64" src="./assets/flags/transmasc_flag.svg" />              | Transmasculine Flag      | `transmasc_flag.svg` |
 ||||
 | <img width="64" src="./assets/flags/TEMPLATE_FLAG.svg" style="border: 1px solid orange;" /> | Just a template for those who wanna add more flags | `TEMPLATE_FLAG.svg` |
 
@@ -55,31 +68,46 @@ Pride flags in the style of Twemojis.
 
 And now you can simply use all pride flags of twemoji-flags as simple as the following examples
 ```html
+<div class="abrosexual-flag"></div>
 <div class="agender-flag"></div>
+<div class="aroace-flag"></div>
 <div class="aromantic-flag"></div>
 <div class="asexual-flag"></div>
+<div class="aspec-flag"></div>
+<div class="androsexual-flag"></div>
 <div class="bi-flag"></div>
 <div class="ceres-flag"></div>
 <div class="demiboy-flag"></div>
+<div class="demiflux-flag"></div>
+<div class="demigender-flag"></div>
 <div class="demigirl-flag"></div>
 <div class="demiromantic-flag"></div>
 <div class="demisexual-flag"></div>
 <div class="femboy-flag"></div>
+<div class="gay-men-flag"></div>
 <div class="genderfluid-flag"></div>
+<div class="genderflux-flag"></div>
 <div class="genderqueer-nb-flag"></div>
 <div class="genderqueer-nb1-flag"></div>
+<div class="gynesexual-flag"></div>
 <div class="hetero-flag"></div>
 <div class="intersexual-flag"></div>
 <div class="lesbian-flag"></div>
 <div class="neutrois-flag"></div>
 <div class="nb-flag"></div>
+<div class="omni-flag"></div>
 <div class="pan-flag"></div>
 <div class="polyamory-flag"></div>
 <div class="polyamory1-flag"></div>
 <div class="polysexual-flag"></div>
 <div class="progress-pride-flag"></div>
+<div class="queer-flag"></div>
 <div class="straight-ally-flag"></div>
 <div class="trans-flag"></div>
+<div class="transfem-flag"></div>
+<div class="transmasc-flag"></div>
+<div class="achillean-flag"></div>
+<div class="sapphic-flag"></div>
 ```
 
 You can change the size of the emoji flags by setting the css variable `--pride-flag-size` to any size you like, default is 24px.

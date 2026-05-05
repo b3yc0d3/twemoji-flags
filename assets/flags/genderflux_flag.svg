@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path id="rect830" d="M3.465,5C2.662,5.109 1.932,5.444 1.354,5.955C0.525,6.688 0,7.756 0,8.949L0,26.449C0,27.929 0.537,29.132 1.383,29.922L1.354,29.943C1.934,30.456 2.666,30.792 3.471,30.9L32.492,30.9C34.466,30.655 36,28.99 36,26.949L36,8.949C36,6.911 34.47,5.248 32.5,5L3.465,5Z" style="fill:rgb(208,208,208);fill-rule:nonzero;"/>
+    <clipPath id="_clip1">
+        <path id="rect8301" serif:id="rect830" d="M3.465,5C2.662,5.109 1.932,5.444 1.354,5.955C0.525,6.688 0,7.756 0,8.949L0,26.449C0,27.929 0.537,29.132 1.383,29.922L1.354,29.943C1.934,30.456 2.666,30.792 3.471,30.9L32.492,30.9C34.466,30.655 36,28.99 36,26.949L36,8.949C36,6.911 34.47,5.248 32.5,5L3.465,5Z" clip-rule="nonzero"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="rect830-6-7-5" transform="matrix(1,0,0,1.166725,0,7.798317)">
+            <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(253,244,159);fill-rule:nonzero;"/>
+        </g>
+        <g id="rect830-6-7-51" serif:id="rect830-6-7-5" transform="matrix(1,0,0,1.166725,0,3.482345)">
+            <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(113,204,245);fill-rule:nonzero;"/>
+        </g>
+        <g id="rect830-6-7-52" serif:id="rect830-6-7-5" transform="matrix(1,0,0,1.166725,0,-0.833627)">
+            <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(153,224,244);fill-rule:nonzero;"/>
+        </g>
+        <g id="rect830-6-7-53" serif:id="rect830-6-7-5" transform="matrix(1,0,0,1.166725,0,-9.467851)">
+            <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(230,169,188);fill-rule:nonzero;"/>
+        </g>
+        <g id="rect830-6-7-54" serif:id="rect830-6-7-5" transform="matrix(1,0,0,1.166725,0,-13.783822)">
+            <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(229,131,153);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path id="rect830" d="M3.465,5C2.662,5.109 1.932,5.444 1.354,5.955C0.525,6.688 0,7.756 0,8.949L0,26.449C0,27.929 0.537,29.132 1.383,29.922L1.354,29.943C1.934,30.456 2.666,30.792 3.471,30.9L32.492,30.9C34.466,30.655 36,28.99 36,26.949L36,8.949C36,6.911 34.47,5.248 32.5,5L3.465,5Z" style="fill:rgb(126,127,127);fill-rule:nonzero;"/>
+    <path id="rect830-6" d="M0.027,8.699C0.022,8.784 0,8.863 0,8.949L0,26.449C0,26.709 0.023,26.957 0.055,27.199L35.975,27.199C35.98,27.115 36,27.035 36,26.949L36,8.949C36,8.863 35.98,8.784 35.975,8.699L0.027,8.699Z" style="fill:rgb(197,195,196);fill-rule:nonzero;"/>
+    <g id="rect830-6-7-5" transform="matrix(1,0,0,1,0,3.699219)">
+        <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(172,217,233);fill-rule:nonzero;"/>
+    </g>
+    <rect id="rect830-6-7-51" serif:id="rect830-6-7-5" x="0" y="16.1" width="36" height="3.701" style="fill:rgb(244,246,162);fill-rule:nonzero;"/>
+    <g id="rect830-6-7-52" serif:id="rect830-6-7-5" transform="matrix(1,0,0,1,0,-3.699218)">
+        <rect x="0" y="16.1" width="36" height="3.701" style="fill:rgb(244,186,190);fill-rule:nonzero;"/>
+    </g>
+</svg>
